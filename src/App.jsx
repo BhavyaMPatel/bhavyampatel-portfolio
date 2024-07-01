@@ -1,13 +1,20 @@
 import AboutSection from "./Componets/AboutSection";
+import Project from "./Pages/Project";
 import Navbar from "./Componets/Navbar";
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+
 
 export default function App() {
   return (
-    <div className="bg-gray-50 min-h-screen">
-      <div className="md:ml-36 md:mr-36 bg-white min-h-screen">
+    <>
+      {/* <AboutSection/> */}
+      <Router>
           <Navbar/>
-          <AboutSection/>
-      </div>
-    </div>
+          <Routes>
+            <Route path="/" element={<AboutSection />} />
+            <Route path="/Projects" element={<Project/>}/>
+          </Routes>
+      </Router>
+    </>
   )
 }
