@@ -52,7 +52,7 @@ export default function Project() {
                         <div className="mx-auto max-w-2xl lg:max-w-5xl">
                             <header className="max-w-2xl">
                                 <h1 className="text-4xl tracking-tight text-zinc-800 sm:text-5xl font-thin">Fuel of Software Engineer's <br /> ~ Projects</h1>
-                                <p className="mt-6 text-base text-zinc-600 font-thin">These are my open-source projects which I created over a span of 3 years. Feel free to contribute! Happy developing 🧑‍💻.</p>
+                                <p className="mt-6 text-base text-black font-thin">These are my open-source projects which I created over a span of 3 years. Feel free to contribute! Happy developing 🧑‍💻.</p>
                             </header>
 
                             <div className="mt-16 sm:mt-20">
@@ -63,11 +63,11 @@ export default function Project() {
                                                 <div className="relative z-10 flex h-28 w-full items-center justify-center rounded-xl bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 ">
                                                     <img alt="" src={src} width="1696" height="455" decoding="async" data-nimg="1" className="w-full h-full object-cover rounded-xl" loading="lazy"/>
                                                 </div>
-                                                <h2 className="mt-6 text-base font-semibold text-zinc-800">
+                                                <h2 className="mt-6 text-base font-thin text-zinc-800">
                                                     <div className="absolute -inset-y-6 -inset-x-4 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100  sm:-inset-x-6 sm:rounded-2xl"></div>
                                                     <a href={url}><span className="absolute -inset-y-6 -inset-x-4 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span className="relative z-10 font-thin">{title}</span></a>
                                                 </h2>
-                                                <p className="relative z-10 mt-2 text-sm text-zinc-600">{about}</p>
+                                                <p className="relative z-10 mt-2 text-sm font-thin text-black">{about}</p>
                                                 <p className="tag relative z-10 mt-2 text-sm text-black font-thin">{technology}</p>
                                                 <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500">
                                                     <svg viewBox="0 0 24 24" aria-hidden="true" className="h-6 w-6 flex-none">
