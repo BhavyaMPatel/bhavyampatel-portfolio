@@ -5,7 +5,7 @@ export default function Navbar() {
     <>
         <div className="flex justify-center items-center text-xs sm:text-lg">
             <div className="p-3 mt-5 rounded-xl border-solid border-2 border-gray-50 shadow-md shadow-blue-50 font-thin">
-                <div className="flex justify-center space-x-6 cursor-pointer">
+                <div className="flex justify-center space-x-6 cursor-pointer text-zinc-950">
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/projects">Project</Link>
