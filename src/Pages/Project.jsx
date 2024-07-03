@@ -61,7 +61,7 @@ export default function Project() {
                                         <div key={src}>
                                             <li className="group relative flex flex-col items-start">
                                                 <div className="relative z-10 flex h-28 w-full items-center justify-center rounded-xl bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 ">
-                                                    <img alt="" src={src} width="1696" height="455" decoding="async" data-nimg="1" className="w-full h-full object-cover rounded-xl" loading="eager"/>
+                                                    <img alt="" src={src} width="1696" height="455" decoding="async" data-nimg="1" className="w-full h-full object-cover rounded-xl" loading="lazy"/>
                                                 </div>
                                                 <h2 className="mt-6 text-base font-semibold text-zinc-800">
                                                     <div className="absolute -inset-y-6 -inset-x-4 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100  sm:-inset-x-6 sm:rounded-2xl"></div>
