@@ -1,7 +1,8 @@
+import Card from "./Card"
 export default function AboutSection() {
     return (
-        <>
-            <div className="mx-auto max-w-7xl lg:px-8 mt-20 ">
+        <>  
+            <div className="mx-auto max-w-7xl lg:px-8 mt-20">
                 <div className="relative px-4 sm:px-8 lg:px-12">
                     <div className="mx-auto max-w-2xl lg:max-w-5xl">
                         <div className="max-w-2xl">

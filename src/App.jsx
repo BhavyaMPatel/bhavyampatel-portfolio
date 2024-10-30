@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
 import About from "./Pages/About";
 import Footer from "./Componets/Footer";
 
-
 export default function App() {
   return (
     <>
