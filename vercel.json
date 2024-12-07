@@ -1,15 +1,8 @@
 {
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "https://service.prerender.io/https://bhavyapatel.vercel.app/$1",
-      "has": [
-        {
-          "type": "header",
-          "key": "user-agent",
-          "value": "(googlebot|bingbot|yandex|baiduspider|facebookexternalhit|twitterbot)"
-        }
-      ]
-    }
+      {
+          "source": "/(.*)",
+          "destination": "/"
+      }
   ]
 }
