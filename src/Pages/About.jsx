@@ -1,6 +1,17 @@
 export default function About() {
     return (
-        <>
+      <>
+      <Helmet>   
+            <title>BhavyaMPatel | About Page</title>
+            <meta name="description" content="Hey ! Bhavya Manishkumar Patel from Vellore Institute of Technology (VIT) This Side
+                           I Am Aspiring Software Developer with a strong academic background in Computer Science and Engineering (CSE).
+                           Proficient in Web Development, Data Structures and Algorithms (DSA), Data Science, and Cloud Deployment. Detail-oriented and responsible, 
+                           with a proven track record of delivering high-quality software products on schedule.
+                        "/>
+
+            <link rel="canonical" href="/about" />
+      </Helmet>
+
       <div className="relative">
          <main>
             <div className="sm:px-8 mt-16 sm:mt-32">

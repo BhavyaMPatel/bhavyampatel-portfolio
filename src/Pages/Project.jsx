@@ -46,6 +46,19 @@ export default function Project() {
 
     return (
         <>
+              <Helmet>   
+                <title>BhavyaMPatel | Project Page</title>
+                <meta name="description" content="
+                Subtitle Generator • Effortless subtitling for global audiences,
+                Advertisement Recommendation • Captivate audience with compelling advertisement,
+                RetailRevolutioner • Insightful retail predictions,
+                SecureScanner • PII Masker,
+                authbapp • npm package for appwrite authentication solution,
+                Your-Own-Gdrive • a webapplication for end to end cloud storage
+                "/>
+                <link rel="canonical" href="/projects" />
+            </Helmet>
+
             <div className="sm:px-8 mt-16 sm:mt-32">
                 <div className="mx-auto max-w-7xl lg:px-8">
                     <div className="relative px-4 sm:px-8 lg:px-12">

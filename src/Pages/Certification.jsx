@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 export default function Certification() {
     return (
         <>  
+            <Helmet>   
+                <title>BhavyaMPatel | Certification Page</title>
+                <meta name="description" content="AWS (Amazon Web Service) Certified Solutions Architect Associate AWS-SAA"/>
+                <link rel="canonical" href="/certificates" />
+            </Helmet>
+
             <div className="mx-auto max-w-7xl lg:px-8 mt-20">
                 <div className="relative px-4 sm:px-8 lg:px-12">
                     <div className="mx-auto max-w-2xl lg:max-w-5xl">
@@ -15,7 +21,7 @@ export default function Certification() {
                             <Link target="_blank" to="https://drive.google.com/file/d/1ouz7ffRiTcXjOMcKcO7MqxB-UBRDtx2i/view" className="mt-5 text-lg font-thin">Google Cloud Computing Foundation</Link>
                             <div className="flex gap-6 mb-4">Google</div>
                             
-                            <Link target="_blank" to="https://www.linkedin.com/in/bhavyapatel94/details/certifications/" className="mt-5 text-lg font-thin">More ..</Link>
+                            <Link target="_blank" to="https://www.linkedin.com/in/bhavyapatel/" className="mt-5 text-lg font-thin">More ..</Link>
                         </div>
                     </div>
                 </div>

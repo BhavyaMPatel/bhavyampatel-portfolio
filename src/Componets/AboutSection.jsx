@@ -1,6 +1,19 @@
+import { Helmet } from "react-helmet-async";
+
 export default function AboutSection() {
     return (
         <>  
+            <Helmet>   
+                <title>BhavyaMPatel | About Page</title>
+                <meta name="description" content="Hey ! Bhavya Manishkumar Patel from Vellore Institute of Technology (VIT) This Side
+                                I Am Aspiring Software Developer with a strong academic background in Computer Science and Engineering (CSE).
+                                Proficient in Web Development, Data Structures and Algorithms (DSA), Data Science, and Cloud Deployment. Detail-oriented and responsible, 
+                                with a proven track record of delivering high-quality software products on schedule.
+                            "/>
+
+                <link rel="canonical" href="/about" />
+            </Helmet>
+
             <div className="mx-auto max-w-7xl lg:px-8 mt-20">
                 <div className="relative px-4 sm:px-8 lg:px-12">
                     <div className="mx-auto max-w-2xl lg:max-w-5xl">
