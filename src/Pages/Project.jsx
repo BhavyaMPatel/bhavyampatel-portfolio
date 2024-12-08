@@ -52,7 +52,7 @@ export default function Project() {
         <title>BhavyaMPatel | Project Page</title>
         <meta
           name="description"
-          content="Subtitle Generator • Effortless subtitling for global audiences, Advertisement Recommendation • Captivate audience with compelling advertisement, RetailRevolutioner • Insightful retail predictions, SecureScanner • PII Masker, authbapp • npm package for appwrite authentication solution, Your-Own-Gdrive • a webapplication for end to end cloud storage"
+          content="Effortless subtitling, targeted ad recommendations, retail insights, PII masking, appwrite auth, and cloud storage — innovative solutions for all needs."
         />
         <link rel="canonical" href="https://bhavyapatel.vercel.app/projects" />
       </Helmet>

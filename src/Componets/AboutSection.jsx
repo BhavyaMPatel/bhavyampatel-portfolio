@@ -5,12 +5,7 @@ export default function AboutSection() {
         <>  
             <Helmet>   
                 <title>BhavyaMPatel | About Page</title>
-                <meta name="description" content="Hey ! Bhavya Manishkumar Patel from Vellore Institute of Technology (VIT) This Side
-                                I Am Aspiring Software Developer with a strong academic background in Computer Science and Engineering (CSE).
-                                Proficient in Web Development, Data Structures and Algorithms (DSA), Data Science, and Cloud Deployment. Detail-oriented and responsible, 
-                                with a proven track record of delivering high-quality software products on schedule.
-                            "/>
-
+                <meta name="description" content="Hi, I'm Bhavya Patel from VIT — an aspiring software developer skilled in Software Dev, DSA, Data Science, and Cloud Deployment AWS. Passionate focused.."/>
                 <link rel="canonical" href="https://bhavyapatel.vercel.app/about" />
             </Helmet>
 
