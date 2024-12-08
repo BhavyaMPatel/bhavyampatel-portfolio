@@ -1,5 +1,6 @@
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
+import { Helmet } from "react-helmet-async";
 
 export default function Contact() {
   return (
