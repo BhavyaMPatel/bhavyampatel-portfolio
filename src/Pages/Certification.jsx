@@ -7,7 +7,7 @@ export default function Certification() {
             <Helmet>   
                 <title>BhavyaMPatel | Certification Page</title>
                 <meta name="description" content="AWS (Amazon Web Service) Certified Solutions Architect Associate AWS-SAA"/>
-                <link rel="canonical" href="/certificates" />
+                <link rel="canonical" href="https://bhavyapatel.vercel.app/certificates" />
             </Helmet>
 
             <div className="mx-auto max-w-7xl lg:px-8 mt-20">

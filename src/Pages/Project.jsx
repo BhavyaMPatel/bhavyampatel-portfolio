@@ -58,7 +58,7 @@ export default function Project() {
                 authbapp • npm package for appwrite authentication solution,
                 Your-Own-Gdrive • a webapplication for end to end cloud storage
                 "/>
-                <link rel="canonical" href="/projects" />
+                <link rel="canonical" href="https://bhavyapatel.vercel.app/projects" />
             </Helmet>
 
             <div className="sm:px-8 mt-16 sm:mt-32">

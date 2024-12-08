@@ -11,7 +11,7 @@ export default function About() {
                            with a proven track record of delivering high-quality software products on schedule.
                         "/>
 
-            <link rel="canonical" href="/about" />
+            <link rel="canonical" href="https://bhavyapatel.vercel.app/about" />
       </Helmet>
 
       <div className="relative">

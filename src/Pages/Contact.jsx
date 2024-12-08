@@ -8,7 +8,7 @@ export default function Contact() {
       <Helmet>   
                 <title>BhavyaMPatel | Contact Page</title>
                 <meta name="description" content="Contact BhavyaMPatel | Bhavya Manishkumar Patel | BhvyaMPatel VIT | Surat | Developer"/>
-                <link rel="canonical" href="/contact" />
+                <link rel="canonical" href="https://bhavyapatel.vercel.app/contact" />
       </Helmet>
 
   

@@ -11,14 +11,14 @@ export default function AboutSection() {
                                 with a proven track record of delivering high-quality software products on schedule.
                             "/>
 
-                <link rel="canonical" href="/about" />
+                <link rel="canonical" href="https://bhavyapatel.vercel.app/about" />
             </Helmet>
 
             <div className="mx-auto max-w-7xl lg:px-8 mt-20">
                 <div className="relative px-4 sm:px-8 lg:px-12">
                     <div className="mx-auto max-w-2xl lg:max-w-5xl">
                         <div className="max-w-2xl">
-                            <img className="rounded-full w-28 h-28" src="https://avatars.githubusercontent.com/u/100468926?s=400&u=a97afc10da585a6ea3f22283a95832c7eb8e0218&v=4"/>
+                            <img className="rounded-full w-28 h-28" src="https://avatars.githubusercontent.com/u/100468926?s=400&u=a97afc10da585a6ea3f22283a95832c7eb8e0218&v=4" alt="bhavyampatel profile page"/>
                             <h1 className="text-3xl tracking-tight text-zinc-950 text-balance sm:text-4xl font-thin">Bhavya Patel - Full Stack Developer, Software Developer &amp; Tech Enthusiast</h1>
                             <p className="mt-6 text-lg font-thin">
                                 Hey ! 🙋‍♂️<b>Bhavya Manishkumar Patel This Side </b><br/>
