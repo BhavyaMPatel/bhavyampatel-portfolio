@@ -22,7 +22,7 @@ export default function Certification() {
                             <Link target="_blank" to="https://drive.google.com/file/d/1ouz7ffRiTcXjOMcKcO7MqxB-UBRDtx2i/view" className="mt-5 text-lg font-thin">Google Cloud Computing Foundation</Link>
                             <div className="flex gap-6 mb-4">Google</div>
                             
-                            <Link target="_blank" to="https://www.linkedin.com/in/bhavyapatel/" className="mt-5 text-lg font-thin">More ..</Link>
+                            <Link target="_blank" to="https://www.linkedin.com/in/bhavyapatel94/" className="mt-5 text-lg font-thin">More ..</Link>
                         </div>
                     </div>
                 </div>
