@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <>
       <Helmet>   
-                <title>BhavyaMPatel | Contact Page</title>
+                <title>BhavyaMPatel | Contact Bhavya</title>
                 <meta name="description" content="Contact BhavyaMPatel | Bhavya Manishkumar Patel | BhvyaMPatel VIT | Surat | Developer"/>
                 <link rel="canonical" href="https://bhavyapatel.vercel.app/contact" />
       </Helmet>
@@ -17,12 +17,15 @@ export default function Contact() {
       <div className="space-y-2">
         <h2 className="text-3xl">Contact Me</h2>
         <p className="text-gray-500 ">
-          I'LL Happy to Connect With You ✨
+          I'll Happy to Connect With You ✨
+          <br/>Linkedin - bhavyapatel94
         </p>
       </div>
 
       <div className="space-y-4">
 
+      <form id="ContactForm" action="https://formsubmit.co/bhavyapatel4012@gmail.com" method="POST">
+        
         <div className="space-y-2">
           <Label htmlFor="name" className="text-gray-600 dark:text-gray-400">Name</Label>
           <Input
@@ -45,13 +48,17 @@ export default function Contact() {
           <Label htmlFor="message" className="text-gray-600 dark:text-gray-400">Message</Label>
           <Input
             id="message"
-            defaultValue="Write here plz ..."
+            placeholder="Write your message"
+            require
             className="border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
             />
         </div>
 
+        <button type="submit" className="bg-black text-white font-thin rounded-md p-3">Submit</button>
+      
+      </form>
+
       </div>
-      <button className="bg-black text-white font-thin rounded-md p-3">Submit</button>
     </div>
     </>
   )
