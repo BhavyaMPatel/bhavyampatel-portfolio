@@ -14,10 +14,10 @@ export default function AboutSection() {
                     <div className="mx-auto max-w-2xl lg:max-w-5xl">
                         <div className="max-w-2xl">
                             <img className="rounded-full w-28 h-28" src="https://avatars.githubusercontent.com/u/100468926?s=400&u=a97afc10da585a6ea3f22283a95832c7eb8e0218&v=4" alt="bhavyampatel profile page"/>
-                            <h1 className="text-3xl tracking-tight text-zinc-950 text-balance sm:text-4xl font-thin">Bhavya Patel - Full Stack Developer, Software Developer &amp; Tech Enthusiast</h1>
+                            <h1 className="text-3xl tracking-tight text-zinc-950 text-balance sm:text-4xl font-thin">Bhavya Patel - Software Developer, Full Stack Developer &amp; Tech Enthusiast</h1>
                             <p className="mt-6 text-lg font-thin">
                                 Hey ! 🙋‍♂️<b>Bhavya Manishkumar Patel This Side </b><br/>
-                                <b>SDE Intern @ <a href="https://www.ringcentral.com/" target="_blank">RingCentral</a> </b><br/>
+                                <b>SDE I @ <a href="https://www.ringcentral.com/" target="_blank">RingCentral</a> </b><br/>
                                 I Am Aspiring Software Developer with a strong academic background in Computer Science and Engineering (CSE) From Vellore Institute of Technology (VIT).
                                 Proficient in Web Development, Data Structures and Algorithms (DSA), Data Science, and Cloud Deployment. Detail-oriented and responsible, 
                                 with a proven track record of delivering high-quality software products on schedule.

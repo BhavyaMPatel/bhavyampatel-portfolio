@@ -17,7 +17,7 @@ export default function Footer() {
                                  <Link className="transition hover:text-teal-500" to="/certificates">Certification</Link>
                                  <Link className="transition hover:text-teal-500" to="/contact">Contact</Link></div>
                               <p className="text-sm text-zinc-400 ">
-                                 © 2024 Bhavya Manishkumar Patel. All rights reserved.
+                                 © 2025 Bhavya Manishkumar Patel. All rights reserved.
                               </p>
                            </div>
                         </div>
