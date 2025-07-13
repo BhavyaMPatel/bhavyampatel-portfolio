@@ -31,6 +31,7 @@ export default function Contact() {
           <Input
             id="name"
             placeholder="Enter your name"
+            name="name"
             className="border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
             />
         </div>
@@ -39,6 +40,7 @@ export default function Contact() {
           <Label htmlFor="phone" className="text-gray-600 dark:text-gray-400">Phone Number</Label>
           <Input
             id="phone"
+            name="phone"
             placeholder="Enter your phone number"
             className="border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
             />
@@ -48,6 +50,7 @@ export default function Contact() {
           <Label htmlFor="message" className="text-gray-600 dark:text-gray-400">Message</Label>
           <Input
             id="message"
+            name="message"
             placeholder="Write your message"
             require
             className="border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
