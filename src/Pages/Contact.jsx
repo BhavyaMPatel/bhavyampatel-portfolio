@@ -18,7 +18,7 @@ export default function Contact() {
         <h2 className="text-3xl">Contact Me</h2>
         <p className="text-gray-500 ">
           I'll Happy to Connect With You ✨
-          <br/>Linkedin - bhavyapatel94
+          <br/>Linkedin - <a href="https://www.linkedin.com/in/bhavyapatel94" target="_blank">Bhavya Patel</a>
         </p>
       </div>
 
